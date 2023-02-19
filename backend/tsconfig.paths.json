@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@auth/*": ["src/auth/*"],
+            "@helpers/*": ["src/helpers/*"],
+            "@lambda/*": ["src/lambda/*"],
+            "@models/*": ["src/models/*"],
+            "@requests/*": ["src/requests/*"],
+            "@responses/*": ["src/responses/*"],
+            "@utils/*": ["src/utils/*"]
+        }
+    }
+}
