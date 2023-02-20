@@ -21,7 +21,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos?limit=3",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -42,7 +42,8 @@
 								},
 								{
 									"key": "limit",
-									"value": "3"
+									"value": "3",
+									"disabled": true
 								}
 							]
 						}
@@ -91,7 +92,7 @@
 				{
 					"name": "Update todo",
 					"request": {
-						"method": "PUT",
+						"method": "PATCH",
 						"header": [
 							{
 								"key": "Content-Type",
@@ -127,7 +128,7 @@
 							"variable": [
 								{
 									"key": "todoId",
-									"value": "35dd600f-43c2-4649-903c-615e1586a26f"
+									"value": "239cff32-b638-49cc-83ff-d5af6d2c8521"
 								}
 							]
 						}
@@ -173,7 +174,7 @@
 							"variable": [
 								{
 									"key": "todoId",
-									"value": "fe671583-4512-45f6-9475-4265c04362fb"
+									"value": "fc79cce1-ea9a-4d86-ba5c-059d8e1f4ba9"
 								}
 							]
 						}
@@ -282,7 +283,7 @@
 		},
 		{
 			"key": "authToken",
-			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRCSVp2aVZZT3RQWlJuX0t1NVBOMSJ9.eyJpc3MiOiJodHRwczovL2Rldi1qY28wM2NkMW84d3hzZTF6LnVzLmF1dGgwLmNvbS8iLCJhdWQiOiJTSFFLR2FBUG9uR3dqckRMZGZCWVBrN1phQ2UyemxaRCIsImlhdCI6MTY3Njg0ODgyOCwiZXhwIjoxNjc2ODg0ODI4LCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMTg4MjkxNjU2NjU1MjMwODk0NiIsImF0X2hhc2giOiJwLVpYaHlURk9Jb1F1YzBZcjBXcE53Iiwic2lkIjoiOTFXQlFBZnpIS3pjaW9tbzVlT01ZWlVTS3htSFBZRWIiLCJub25jZSI6Ikx3djBscXM5Qm9hbVRUUzhwaktyajVFY2txSVlNdEdWIn0.uf0g-AgZXl7J1pbiFK3WeDvatYrZF0u9ik5wfJkl50oMFq91nUwmUWScpdgzx3mp8JvKPzTjsm6Iq7Jnp9MlYNcjOao0rxF2rl7Ti3-Kzw4CD-0mCDY6LIlahTsFVTz2Ns0Nqh6qpYWd1XvxbEilO0k4oVAhbrTeq3mcUwdSGbLLP5rDnTAWXrwYAsPI_PCBCCKU0llpeoKsh1Gk_Yr7lD4dFknVkjs0XrNL9KKYNyYYdfOX6YkU-CPqjIs_pUW2qnBhQl1RRroF7y4yi0chFHDgMe3YXnYn47QsT3X1phWdC_gLr4ycMiOQ7dGvYgLMmcYUmVttDXw--Zm5sN9a7g",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRCSVp2aVZZT3RQWlJuX0t1NVBOMSJ9.eyJpc3MiOiJodHRwczovL2Rldi1qY28wM2NkMW84d3hzZTF6LnVzLmF1dGgwLmNvbS8iLCJhdWQiOiJTSFFLR2FBUG9uR3dqckRMZGZCWVBrN1phQ2UyemxaRCIsImlhdCI6MTY3NjkwNjY0OSwiZXhwIjoxNjc2OTQyNjQ5LCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMTg4MjkxNjU2NjU1MjMwODk0NiIsImF0X2hhc2giOiIxcVdNZExjdk55SjVZVlBBUnF1Y3BRIiwic2lkIjoia1pQbHN1b3d2RHpIZFZmWHQ4cEFtejJ3ODRyZjBDVkUiLCJub25jZSI6IlJLUjhPR2NCQnVHNVkxckJHSXU1TFhld1FPYjlqSzBGIn0.ueNDhB8JV2ybwnyeiwq9h3yXe2xcZ9civ72Wjw4dMwcvLeTE-tRtFAx-j_83iQrCIvFOmmgG91XNwjt6YH1jPy2LNi-F-_FGh2t6XjzJQpKWxDjLc2gF0c-UaAxa3kUReFP-kxSZO17Dn2JozFF5X92AabAmixC_-67RqkSudNLcnhDARqEKYYBPl5wolMUfgiYkclSHT2leGDOqtPCIOWMGBeJUmz48u-sCbb9X9qafUxCNq-98FNN_mNikwYdZ0ayQhpxj-XDZ2jmNG6GyTTNm_JgGq1uzzg-FcUZ1cEN-LjJNDj947Ukx7vh14-yP63hw1ltIuBucQpPXqmxTSg",
 			"type": "string"
 		}
 	]
