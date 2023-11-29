@@ -1,6 +1,6 @@
 # Serverless TODO
 
-This is a simple cloud TODO application developed alongside the Udacity Cloud Engineering Nanodegree that allows creating/removing/updating/fetching TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created.
+This is a simple cloud TODO application developed with AWS Lambda and Serverless Framework, alongside the Udacity Cloud Engineering Nanodegree that allows creating/removing/updating/fetching TODO items. Each user only has access to TODO items that he/she has created.
 
 ## TODO items
 
